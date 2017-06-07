@@ -1,0 +1,72 @@
+
+
+#g-widget{
+    margin: 10px;
+}
+
+#g-widget .g-widget{
+    width: 260px;
+    height: 105px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#g-widget .widget{
+    background-color: rgb(240,240,240);
+    color: rgb(85, 85, 85);
+    padding: 25px 20px 25px 11px;
+    border: 5px solid rgb(118,118,118);
+    font-size: 14px;
+}
+
+#g-widget .content{
+    float: right;
+    font-family: Minion, serif;
+}
+
+#g-widget .img{
+    margin: 9px;
+}
+
+#g-widget .wrapper-mail{
+    margin: 10px 0 0 30px;
+}
+
+#g-widget .event{
+    color: #000;
+    margin: 3px;
+    text-align: center;
+}
+
+#g-widget .title{
+    color: rgb(75,110,211);
+    margin: 3px;
+    text-align: center;
+}
+
+#g-widget .mails{
+    background-color: rgb(18,96,179);
+    color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 19px;
+    width: 25px;
+    text-align: center;
+}
+
+#g-widget h2{
+    font-family: Minion, serif;
+    font-size: 24px;
+    margin: 0;
+    font-style: italic;
+}
+
+#g-widget .clearfix:before,
+#g-widget .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+#g-widget .clearfix:after {
+    clear: both;
+}
